@@ -32,7 +32,7 @@ body {
 .method-text span,
 .recommend .item span,
 .accordion-003 p,
-.top-page .key span  {
+.top-page .key span {
     color: #FC5E5E;
 }
 
@@ -340,6 +340,7 @@ p {
 /* 解決します */
 .solution .inner {
     max-width: 500px;
+    /* height: 450px; */
     position: relative;
 }
 
@@ -354,9 +355,10 @@ p {
     left: 50%;
     transform: translateX(-50%);
     top: 100%;
-    border-top: 40px solid #fff;
-    border-left: calc(50vw - 18px) solid transparent;
-    border-right: calc(50vw - 18px) solid transparent;
+    border-top: 30px solid #fff;
+    /*   三角形のborderの長さを相対的な値にしたいが、%が使えないのでvwを使う */
+    border-left: calc(50vw - 20px) solid transparent;
+    border-right: calc(50vw - 20px) solid transparent;
 }
 
 .solution .text {
@@ -470,8 +472,6 @@ p {
     padding-top: 15px;
     text-align: left;
 }
-
-
 
 .method .concept {
     display: flex;
@@ -640,10 +640,10 @@ p {
 }
 
 .director h3 {
-    display:inline-block;
+    display: inline-block;
     padding: 0 10%;
     font-size: 1.2rem;
-    background: linear-gradient(transparent 40%,rgba(252, 95, 95, 0.5) 0%);
+    background: linear-gradient(transparent 40%, rgba(252, 95, 95, 0.5) 0%);
 }
 
 
