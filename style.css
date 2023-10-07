@@ -86,7 +86,6 @@ p {
 }
 
 .inner {
-    /* border: 1px solid blue; */
     padding: 5%;
     box-shadow: 0 2px 7px #0000004e;
 }
@@ -229,9 +228,10 @@ p {
     margin-bottom: 15px;
 }
 
-.supporter .btn{
+.btn1,
+.btn2{
     border: 3px solid #fff;
-    font-size: 1vw;
+    font-size: 5.5vw;
     border-radius: 13px;
     margin: 0 5%;
     padding: 3%;
@@ -243,27 +243,47 @@ p {
 }
 
 
-.supporter .btn:active {
+.btn1:active,
+.btn2:active {
     box-shadow: none;
     position: relative;
     top: 7px;
 }
 
-.btn::after {
+.btn1::after,
+.btn2::after {
     content: '';
     transform: rotate(45deg);
-    width: 7px;
-    height: 7px;
-    margin-left: 5%;
+    width: 10px;
+    height: 10px;
+    margin-left: 10%;
     border-radius: 1px;
     border-top: 2px solid #fff;
     border-right: 2px solid #fff;
 }
 
 
-.btn img {
+.btn1,.btn2{
+    border: 3px solid #fff;
+    font-size: 5vw;
+    border-radius: 13px;
+    margin: 0 5%;
+    padding: 3%;
+    background: rgba(89, 183, 92, 1);
+    display: flex;
+    align-items: center;
+    color: #fff;
+    box-shadow: 0 2px 7px #0000004e;
+}
+
+.btn1 img {
     width: 20%;
-    margin-right:15px;
+    margin-right:10%;
+}
+
+.btn2 img {
+    width: 20%;
+    margin-right:5%;
 }
 
 /* お悩みありませんか */
@@ -280,14 +300,11 @@ p {
 }
 
 
-.problem-presentation p {
-    font-size: 1.3rem;
-}
-
-
-
 .problem-presentation .sec-title {
     padding: 15px;
+}
+.problem-presentation .sub-title {
+    font-size: 4vw;
 }
 
 .problem-presentation .item {
@@ -295,12 +312,10 @@ p {
     border-radius: 50px;
     margin-bottom: 10px;
     box-shadow: 0 2px 7px #0000004e;
-}
-
-.problem-presentation .item p {
-    font-size: 3.8vw;
+    font-size: 4vw;
     padding: 20px;
 }
+
 
 .problem-presentation .item:nth-child(6) {
     line-height: 45px;
@@ -323,7 +338,6 @@ p {
 /* 解決します */
 .solution .inner {
     max-width: 500px;
-    /* height: 450px; */
     position: relative;
 }
 
@@ -339,7 +353,6 @@ p {
     transform: translateX(-50%);
     top: 100%;
     border-top: 30px solid #fff;
-    /*   三角形のborderの長さを相対的な値にしたいが、%が使えないのでvwを使う */
     border-left: calc(50vw - 20px) solid transparent;
     border-right: calc(50vw - 20px) solid transparent;
 }
@@ -376,11 +389,15 @@ p {
 
 .achievement .text {
     display: block;
+    font-size: 3.8vw;
 }
 
 .achievement .text p {
     display: inline-block;
     margin: 3px 0;
+}
+.achievement .sub-text{
+    font-size: 3vw;
 }
 
 
@@ -419,11 +436,11 @@ p {
     left: 3%;
 }
 
-
 /* 運用の流れ */
 
 .method .sub-text {
     margin-bottom: 40px;
+    font-size: 3.5vw;
 }
 
 .method .method-title {
@@ -454,6 +471,7 @@ p {
 .method-text {
     padding-top: 15px;
     text-align: left;
+    font-size: 3.5vw;
 }
 
 .method .concept {
@@ -553,20 +571,17 @@ p {
 
 
 .selected img{
-    /* border: 1px solid; */
     width: 20%;
     object-fit: cover;
 }
 
 .selected .sub-title {
     text-align: left;
-    /* border: 1px solid blue; */
     padding: 10px;
     font-size: 5vw;
     width: 70%;
 }
 .selected .right h3{
-    /* border: 1px solid blue; */
     width: 100%;
     text-align: right;
 }
@@ -587,7 +602,6 @@ p {
 /* ディレクター */
 
 .director {
-    /* z-index: 10; */
     padding: 50px 5%;
 
 }
@@ -597,7 +611,6 @@ p {
 }
 
 .director .item {
-    /* z-index: 10; */
     margin: 20px auto;
 }
 
@@ -649,6 +662,7 @@ p {
 
 .price .type {
     color: rgba(53, 136, 71, 1);
+    font-size: 4vw;
 }
 
 .price .price-tag {
@@ -690,35 +704,18 @@ p {
     padding-bottom: 50px;
 }
 
-
-
 .recommend .item {
+    font-size: 4vw;
     box-shadow: 0 2px 7px #0000004e;
     margin: 5% 10% 0;
     padding: 20px;
     border-radius: 40px;
 }
 
-.recommend .btn{
-    border: 3px solid #fff;
-    font-size: 4vw;
-    border-radius: 13px;
-    margin: 0 5%;
-    padding: 3%;
-    background: rgba(89, 183, 92, 1);
-    display: flex;
-    align-items: center;
-    color: #fff;
-    box-shadow: 0 2px 7px #0000004e;
-}
-
-
-
 /* よくある質問 */
 .question {
     padding: 0 5% 70px;
 }
-
 
 .accordion-003 {
     max-width: 500px;
