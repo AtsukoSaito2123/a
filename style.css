@@ -67,7 +67,7 @@ img {
 }
 
 .container {
-    background-image: url(img/background.png);
+    background-image: url(../../img/background.png);
     background-size: cover;
 }
 
@@ -547,72 +547,58 @@ p {
     margin-bottom: 20px;
 }
 
-
-
-
-.selected-item-left {
-    margin: 10px 0;
-    text-align: left;
-    border-left: 7px solid #FC5E5E;
+/* 選ばれる理由 */
+.selected .heading{
+    display: flex;
+    align-items: end;
 }
 
-.selected-item-right {
-    border-right: 7px solid #FC5E5E;
+.selected .text-right{
+    display: flex;
     text-align: right;
-    margin-left: auto;
-    max-width: 250px;
+    width: 100%;
+    padding-left:10px ;
+}
+.selected .text-right p{
+    padding-left: 30px;
+}
+
+.selected .text-left{
+    width: 70%;
+    text-align: left;
 }
 
 
-.selected .text-left {
-    padding-top: 10px;
-    padding-left: 10px;
-    max-width: 250px;
-    font-size: 3.5vw;
-}
-
-.selected .text-right {
-    padding-top: 10px;
-    padding-right: 10px;
-    font-size: 3.5vw;
+.selected img{
+    /* border: 1px solid; */
+    width: 20%;
+    object-fit: cover;
 }
 
 .selected .sub-title {
+    text-align: left;
+    /* border: 1px solid blue; */
     padding: 10px;
     font-size: 5vw;
+    width: 70%;
+}
+.selected .right h3{
+    /* border: 1px solid blue; */
+    width: 100%;
+    text-align: right;
 }
 
-.selected-item-left:last-child {
-    margin-bottom: 0;
+.selected .left{
+    border-left: 6px solid rgba(252, 95, 95, 1);
 }
 
-.selected img {
-    width: 30%;
+.selected .right{
+    margin: 20px 0;
+    border-right: 6px solid rgba(252, 95, 95, 1);
 }
 
-.selected .left1,
-.selected .left2,
-.selected .right {
-    position: relative;
-}
 
-.selected .left1 img {
-    position: absolute;
-    top: -15%;
-    right: 10%;
-}
 
-.selected .left2 img {
-    position: absolute;
-    top: -10%;
-    right: 10%;
-}
-
-.selected .right img {
-    position: absolute;
-    top: 20%;
-    left: 0%;
-}
 
 
 /* ディレクター */
