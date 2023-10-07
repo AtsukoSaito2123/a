@@ -60,7 +60,6 @@ ul {
     list-style: none;
 }
 
-
 img {
     width: 100%;
     vertical-align: bottom;
@@ -70,7 +69,6 @@ img {
     background-image: url(../../img/background.png);
     background-size: cover;
 }
-
 
 section {
     text-align: center;
@@ -94,9 +92,7 @@ p {
 }
 
 /* ヘッダー */
-
 #header {
-    /* background: #fff; */
     height: 50px;
 }
 
@@ -114,7 +110,6 @@ p {
 }
 
 #header .logo-img {
-    /* border: 1px solid blue; */
     width: 40px;
     margin-right: 10px;
 }
@@ -129,11 +124,9 @@ p {
     border-radius: 5px;
 }
 
-
 .openbtn .openbtn-area {
     transition: all .4s;
 }
-
 
 .openbtn span {
     display: block;
@@ -146,37 +139,30 @@ p {
     width: 45%;
 }
 
-
 .openbtn span:nth-of-type(1) {
     top: 15px;
 }
-
 
 .openbtn span:nth-of-type(2) {
     top: 23px;
 }
 
-
 .openbtn span:nth-of-type(3) {
     top: 31px;
 }
 
-
 .openbtn.active .openbtn-area {
     transform: rotateY(-360deg);
 }
-
 
 .openbtn.active span:nth-of-type(1) {
     top: 18px;
     transform: translateY(6px) rotate(-135deg);
 }
 
-
 .openbtn.active span:nth-of-type(2) {
     opacity: 0;
 }
-
 
 .openbtn.active span:nth-of-type(3) {
     top: 30px;
@@ -184,8 +170,6 @@ p {
 }
 
 /* トップページ */
-
-
 .top-page {
     background-size: cover;
 }
@@ -212,7 +196,6 @@ p {
     color: black;
 }
 
-
 .top-page .key p {
     font-size: 5.6vw;
     display: inline-block;
@@ -226,7 +209,6 @@ p {
     width: calc(100%/3);
     justify-content: center;
 }
-
 
 .supporter {
     padding-top: 20px;
@@ -247,13 +229,12 @@ p {
     margin-bottom: 15px;
 }
 
-
-.btn {
+.supporter .btn{
     border: 3px solid #fff;
-    font-size: 1.2rem;
+    font-size: 1vw;
     border-radius: 13px;
-    margin: 0 10%;
-    padding: 10px 10px;
+    margin: 0 5%;
+    padding: 3%;
     background: rgba(89, 183, 92, 1);
     display: flex;
     align-items: center;
@@ -261,7 +242,8 @@ p {
     box-shadow: 0 2px 7px #0000004e;
 }
 
-.btn:active {
+
+.supporter .btn:active {
     box-shadow: none;
     position: relative;
     top: 7px;
@@ -272,15 +254,16 @@ p {
     transform: rotate(45deg);
     width: 7px;
     height: 7px;
-    margin-left: 20px;
+    margin-left: 5%;
     border-radius: 1px;
     border-top: 2px solid #fff;
     border-right: 2px solid #fff;
 }
 
+
 .btn img {
     width: 20%;
-    margin-right: 20px;
+    margin-right:15px;
 }
 
 /* お悩みありませんか */
@@ -402,11 +385,11 @@ p {
 
 
 .achievement .circle p span {
-    font-size: 1.5rem;
+    font-size: 2.3rem;
 }
 
 .achievement .circle p {
-    font-size: 0.7rem;
+    font-size: 1rem;
 }
 
 .achievement .circle {
@@ -714,6 +697,19 @@ p {
     margin: 5% 10% 0;
     padding: 20px;
     border-radius: 40px;
+}
+
+.recommend .btn{
+    border: 3px solid #fff;
+    font-size: 4vw;
+    border-radius: 13px;
+    margin: 0 5%;
+    padding: 3%;
+    background: rgba(89, 183, 92, 1);
+    display: flex;
+    align-items: center;
+    color: #fff;
+    box-shadow: 0 2px 7px #0000004e;
 }
 
 
