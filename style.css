@@ -2,6 +2,7 @@
 
 html {
     font-size: 62.5%;
+    font-family: 'Noto Sans JP', sans-serif;
 }
 
 body {
@@ -229,7 +230,7 @@ p {
 }
 
 .btn1,
-.btn2{
+.btn2 {
     border: 3px solid #fff;
     font-size: 5.5vw;
     border-radius: 13px;
@@ -263,7 +264,8 @@ p {
 }
 
 
-.btn1,.btn2{
+.btn1,
+.btn2 {
     border: 3px solid #fff;
     font-size: 5vw;
     border-radius: 13px;
@@ -278,12 +280,12 @@ p {
 
 .btn1 img {
     width: 20%;
-    margin-right:10%;
+    margin-right: 10%;
 }
 
 .btn2 img {
     width: 20%;
-    margin-right:5%;
+    margin-right: 5%;
 }
 
 /* お悩みありませんか */
@@ -303,6 +305,7 @@ p {
 .problem-presentation .sec-title {
     padding: 15px;
 }
+
 .problem-presentation .sub-title {
     font-size: 4vw;
 }
@@ -396,7 +399,8 @@ p {
     display: inline-block;
     margin: 3px 0;
 }
-.achievement .sub-text{
+
+.achievement .sub-text {
     font-size: 3vw;
 }
 
@@ -434,6 +438,22 @@ p {
     position: absolute;
     bottom: 15%;
     left: 3%;
+}
+
+.slick-dots {
+    position: initial !important;
+}
+
+.slick-next {
+    right: 10px !important;
+}
+
+.slick-prev {
+    left: 10px !important;
+}
+
+.slick-arrow {
+    z-index: 2 !important;
 }
 
 /* 運用の流れ */
@@ -533,7 +553,7 @@ p {
 
 /* お客様の声 */
 
-.voice .slick-area {
+.voice .slick-area2 {
     padding: 0;
     margin: 8% 8% 0;
 }
@@ -549,28 +569,29 @@ p {
 }
 
 /* 選ばれる理由 */
-.selected .heading{
+.selected .heading {
     display: flex;
     align-items: end;
 }
 
-.selected .text-right{
+.selected .text-right {
     display: flex;
     text-align: right;
     width: 100%;
-    padding-left:10px ;
+    padding-left: 10px;
 }
-.selected .text-right p{
+
+.selected .text-right p {
     padding-left: 30px;
 }
 
-.selected .text-left{
+.selected .text-left {
     width: 70%;
     text-align: left;
 }
 
 
-.selected img{
+.selected img {
     width: 20%;
     object-fit: cover;
 }
@@ -581,16 +602,17 @@ p {
     font-size: 5vw;
     width: 70%;
 }
-.selected .right h3{
+
+.selected .right h3 {
     width: 100%;
     text-align: right;
 }
 
-.selected .left{
+.selected .left {
     border-left: 6px solid rgba(252, 95, 95, 1);
 }
 
-.selected .right{
+.selected .right {
     margin: 20px 0;
     border-right: 6px solid rgba(252, 95, 95, 1);
 }
