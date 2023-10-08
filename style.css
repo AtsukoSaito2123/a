@@ -405,21 +405,21 @@ p {
 
 .circle1 span,
 .circle2 span {
-    font-size: 4vw;
+    font-size: 6vw;
 }
 
 .circle3 span,
 .circle4 span {
-    font-size: 2vw;
+    font-size: 2.2vw;
 }
 
 .achievement .circle p {
-    font-size: 1vw;
+    font-size:1.3vw;
 }
 
 .achievement .circle {
-    width: 75px;
-    height: 75px;
+    width: 85px;
+    height: 85px;
     border-radius: 50%;
     border: 1px solid black;
     background: #fff;
@@ -440,7 +440,7 @@ p {
 .circle3,
 .circle4 {
     position: absolute;
-    bottom: 30%;
+    bottom: 35%;
     left: -10%;
 }
 
