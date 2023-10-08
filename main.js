@@ -5,18 +5,42 @@ $(function () {
         $(this).toggleClass('active');
     });
 
-
-    $('.slick-area').slick({
-        // arrows: false,
-        arrows: true,
-        dots: true,
-        slidesToShow: 1,
-        slidesToScroll: 1,
-        centerPadding: '0px',
-        centerMode: true,
-        autoplay: true,
-        autoplaySpeed: 1200,
+    // スワイパー
+    const swiper = new Swiper(".swiper", {
+        loop: true,
+        autoHeight: false,
+        slidesPerView: 2,
+		spaceBetween: 20,
+		centeredSlides: true,
+		initialSlide: 1,
+        autoplay: {
+            delay: 2000,
+        },
+        pagination: {
+            el: ".swiper-pagination",
+        },
+        on: {
+            slideChange: function () {
+                jQuery('.swiper-slide-content').css('opacity', '0');
+                realIndex = this.realIndex + 1;
+                jQuery('.swiper-slide-content-' + realIndex).css('opacity', '1');
+            },
+        },
     });
+
+
+    // $('.slick-area').slick({
+    //     // arrows: false,
+    //     arrows: true,
+    //     dots: true,
+    //     slidesToShow: 1,
+    //     slidesToScroll: 1,
+    //     centerPadding: '0px',
+    //     centerMode: true,
+    //     autoplay: true,
+    //     autoplaySpeed: 1200,
+    // });
+
 
     $(".slick-area").prepend($(".slick-area .slick-dots"))
 
