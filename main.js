@@ -21,7 +21,7 @@ $(function () {
     $(".slick-area").prepend($(".slick-area .slick-dots"))
 
     $('.slick-area2').slick({
-        arrows: false,
+        arrows: true,
         slidesToShow: 1,
         slidesToScroll: 1,
         centerPadding: '0px',
