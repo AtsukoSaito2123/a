@@ -386,19 +386,16 @@ p {
     margin-top: 50px;
 }
 
-.achievement .slick-area {
-    /* margin: 0 auto; */
-    padding: 0;
-}
-
 .achievement .text {
     display: block;
-    font-size: 3.8vw;
+    font-size: 2.4vw;
+    /* padding: 10px; */
 }
 
 .achievement .text p {
     display: inline-block;
     margin: 3px 0;
+
 }
 
 .achievement .sub-text {
@@ -406,35 +403,35 @@ p {
 }
 
 
-.circle1 span,  
-.circle2 span{
-    font-size: 8vw;
+.circle1 span,
+.circle2 span {
+    font-size: 5vw;
 }
 
 .circle3 span,
-.circle4 span{
-    font-size: 6vw;
+.circle4 span {
+    font-size: 3vw;
 }
 
 .achievement .circle p {
-    font-size: 1rem;
+    font-size: 2vw;
 }
 
 .achievement .circle {
-    width: 100px;
-    height: 100px;
-    border: 1px solid black;
+    width: 50px;
+    height: 50px;
     border-radius: 50%;
+    border: 1px solid black;
     background: #fff;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
-.slick-item1,
-.slick-item2,
-.slick-item3,
-.slick-item4 {
+.swiper-item1,
+.swiper-item2,
+.swiper-item3,
+.swiper-item4 {
     position: relative;
 }
 
@@ -443,14 +440,14 @@ p {
 .circle3,
 .circle4 {
     position: absolute;
-    bottom: 15%;
-    left: 3%;
+    bottom: 30%;
+    left: -10%;
 }
 
-.slick-dots {
-    position: initial !important;
+.swiper-slide img {
+    height: auto;
+    width: 100%;
 }
-
 
 /* 運用の流れ */
 
@@ -564,38 +561,37 @@ p {
     margin-bottom: 20px;
 }
 
-.slick-area2 .slick-item{
+.slick-area2 .slick-item {
     box-shadow: 0 2px 7px #0000004e;
     padding: 20px 5%;
     margin: 3%;
 }
 
-
 .slick-area2 .slick-arrow {
     z-index: 2 !important;
 }
 
-.slick-area2 .slick-arrow::before{
-    content:""!important;
-    width: 30px!important;
-    height: 30px!important;
+.slick-area2 .slick-arrow::before {
+    content: "" !important;
+    width: 30px !important;
+    height: 30px !important;
     position: absolute;
     top: 0;
     left: 0;
 }
 
-.slick-area2 .slick-prev::before{
-    background: url(img/left.png)!important;
-    background-size: contain!important;
-    top: 40%!important;
-    left: 50%!important;
+.slick-area2 .slick-prev::before {
+    background: url(img/left.png) !important;
+    background-size: contain !important;
+    top: 40% !important;
+    left: 50% !important;
 }
 
-.slick-area2 .slick-next::before{
-    background: url(img/right.png)!important;
-    background-size: contain!important;
-    top: 40%!important;
-    left: -100%!important;
+.slick-area2 .slick-next::before {
+    background: url(img/right.png) !important;
+    background-size: contain !important;
+    top: 40% !important;
+    left: -100% !important;
 }
 
 /* 選ばれる理由 */
