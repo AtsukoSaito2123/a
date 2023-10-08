@@ -410,11 +410,11 @@ p {
 
 .circle3 span,
 .circle4 span {
-    font-size: 2.2vw;
+    font-size: 4vw;
 }
 
 .achievement .circle p {
-    font-size:1.3vw;
+    font-size: 2vw;
 }
 
 .achievement .circle {
@@ -440,8 +440,8 @@ p {
 .circle3,
 .circle4 {
     position: absolute;
-    bottom: 35%;
-    left: -10%;
+    bottom: 25%;
+    left: -17%;
 }
 
 .swiper-slide img {
@@ -449,11 +449,27 @@ p {
     width: 100%;
 }
 
+.swiper-slide {
+    transition: transform 0.6s;
+}
+.swiper{
+    padding-top: 20px!important;
+    position: relative!important;
+}
+.swiper .swiper-pagination-bullet{
+    background-color: #333;
+}
+
+.swiper .swiper-pagination-bullets {
+    position: absolute!important;
+    top: 0%!important;
+}
+
 /* 運用の流れ */
 
 .method .sub-text {
     margin-bottom: 40px;
-    font-size: 3.5vw;
+    font-size: 3.4vw;
 }
 
 .method .method-title {
