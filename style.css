@@ -405,21 +405,21 @@ p {
 
 .circle1 span,
 .circle2 span {
-    font-size: 5vw;
+    font-size: 4vw;
 }
 
 .circle3 span,
 .circle4 span {
-    font-size: 3vw;
-}
-
-.achievement .circle p {
     font-size: 2vw;
 }
 
+.achievement .circle p {
+    font-size: 1vw;
+}
+
 .achievement .circle {
-    width: 50px;
-    height: 50px;
+    width: 75px;
+    height: 75px;
     border-radius: 50%;
     border: 1px solid black;
     background: #fff;
