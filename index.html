@@ -3,22 +3,20 @@
 
 <head>
     <meta charset="UTF-8">
-<!--     <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
-     <meta name="viewport"
-   content="width=320,
-      height=480,
-      initial-scale=1.0,
-      minimum-scale=1.0,
-      maximum-scale=2.0,
-      user-scalable=yes" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport"
+        content="width=320,height=480,initial-scale=1.0,minimum-scale=1.0,maximum-scale=2.0,user-scalable=yes" />
     <title>AILE LEAD</title>
     <link rel="stylesheet" href="https://unpkg.com/modern-css-reset/dist/reset.min.css" />
     <link rel="stylesheet" href="./style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.css" />
-    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.css">
+    <link rel="stylesheet" type="text/css"
+        href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
+
 
 </head>
 
@@ -119,11 +117,11 @@
             <h2 class="sec-title">
                 <p>実績</p>
             </h2>
-            <div class="contents">
-                <ul class="slick-area">
-                    <li>
-                        <div class="slick-item1 slick-item">
-                            <img src="./img/enuken.png" alt="" />
+            <div class="swiper">
+                <div class="swiper-wrapper">
+                    <div class="swiper-item1 swiper-slide">
+                        <img src="./img/enuken.png" alt="" />
+                        <div class="swiper-slide-content swiper-slide-content-1">
                             <div class="text">
                                 <p>アフィリエイト本格開始から</p><br>
                                 <p>たった<span>4ヶ月で発生売上100万の安定！</span></p><br>
@@ -137,10 +135,10 @@
                                 </p>
                             </div>
                         </div>
-                    </li>
-                    <li>
-                        <div class="slick-item2 slick-item">
-                            <img src="./img/hachu.png" alt="" />
+                    </div>
+                    <div class="swiper-item2 swiper-slide">
+                        <img src="./img/hachu.png" alt="" />
+                        <div class="swiper-slide-content swiper-slide-content-2">
                             <div class="text">
                                 <p>運用開始たった<span>3ヶ月で1万人達成！</span></p><br>
                                 <p>4ヶ月目にしてマネタイズ開始</p><br>
@@ -154,10 +152,10 @@
                                 </p>
                             </div>
                         </div>
-                    </li>
-                    <li>
-                        <div class="slick-item3 slick-item">
-                            <img src="./img/rui.png" alt="" />
+                    </div>
+                    <div class="swiper-item3 swiper-slide">
+                        <img src="./img/rui.png" alt="" />
+                        <div class="swiper-slide-content swiper-slide-content-3">
                             <div class="text">
                                 <p>難しい転職ジャンルで</p><br>
                                 <p><span>リール再生数1301万！</span></p><br>
@@ -171,10 +169,10 @@
                                 </p>
                             </div>
                         </div>
-                    </li>
-                    <li>
-                        <div class="slick-item4 slick-item">
-                            <img src="./img/N00.png" alt="" />
+                    </div>
+                    <div class="swiper-item4 swiper-slide">
+                        <img src="./img/N00.png" alt="" />
+                        <div class="swiper-slide-content swiper-slide-content-4">
                             <div class="text">
                                 <p>メイン垢との細かい連携で</p><br>
                                 <p>サブ垢への送客を最大化！</p><br>
@@ -184,12 +182,15 @@
                                 支援期間：4ヶ月</p>
                             <div class="circle circle4">
                                 <p>運用開始３か月で<br>
-                                    <span>１万人達成</span>
+                                    <span class>１万人達成</span>
                                 </p>
                             </div>
                         </div>
-                    </li>
-                </ul>
+                    </div>
+                </div>
+                <div class="swiper-pagination"></div>
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
             </div>
 
         </section>
@@ -465,6 +466,7 @@
     <footer></footer>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
     <script src="./main.js"></script>
 </body>
 
