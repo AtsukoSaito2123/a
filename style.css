@@ -473,6 +473,7 @@ p {
 .swiper-pagination {
     bottom: 98％!important;
 　　position: absolute!important;
+    top: 0%!important;
 }
 
 .swiper-slide-prev,
