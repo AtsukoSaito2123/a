@@ -8,16 +8,27 @@ $(function () {
     // スワイパー
     const swiper = new Swiper(".swiper", {
         loop: true,
-        autoHeight: false,
+        mousewheel: true,
+        keyboard: true,
         slidesPerView: 2,
-		spaceBetween: 20,
-		centeredSlides: true,
-		initialSlide: 1,
+        spaceBetween: 5,
+        centerMode: true,
+        centeredSlides: true,
+        initialSlide: 1,
         autoplay: {
-            delay: 2000,
+            delay: 3000,
         },
         pagination: {
             el: ".swiper-pagination",
+            clickable: true,
+        },
+        // mousewheel: {
+        //     forceToAxis: true,
+        // },
+
+        navigation: {
+            nextEl: ".swiper-button-next",
+            prevEl: ".swiper-button-prev",
         },
         on: {
             slideChange: function () {
@@ -27,22 +38,6 @@ $(function () {
             },
         },
     });
-
-
-    // $('.slick-area').slick({
-    //     // arrows: false,
-    //     arrows: true,
-    //     dots: true,
-    //     slidesToShow: 1,
-    //     slidesToScroll: 1,
-    //     centerPadding: '0px',
-    //     centerMode: true,
-    //     autoplay: true,
-    //     autoplaySpeed: 1200,
-    // });
-
-
-    $(".slick-area").prepend($(".slick-area .slick-dots"))
 
     $('.slick-area2').slick({
         arrows: true,
