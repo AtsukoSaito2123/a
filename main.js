@@ -4,8 +4,7 @@ $(function () {
     $(".openbtn").click(function () {
         $(this).toggleClass('active');
     });
-
-    // スワイパー
+    
     const swiper = new Swiper(".swiper", {
         loop: true,
         slidesPerView: 2,
