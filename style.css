@@ -456,7 +456,6 @@ p {
 }
 
 .swiper{
-    border: 1px solid blue;
     max-width: 500px;
     padding-top: 50px!important;
     padding-bottom: 50px!important;
@@ -473,8 +472,7 @@ p {
 }
 
 .swiper-pagination {
-    border: 1px solid red;
-    bottom: 590px!important;
+    bottom: 98％!important;
 }
 
 .swiper-slide-prev,
@@ -489,7 +487,6 @@ p {
 }
 
 .swiper-pagination .my-swiper-pagination{
-    border: 1px solid red;
     top: 0!important; 
     bottom: auto!important;
     position: absolute!important;
