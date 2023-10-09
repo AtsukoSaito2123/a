@@ -459,7 +459,7 @@ p {
     max-width: 500px;
     padding-top: 50px!important;
     padding-bottom: 50px!important;
-    position: relative!important;
+/*     position: relative!important; */
 }
 .achievement .swiper-pagination-bullet{
     background-color: #333;
@@ -468,7 +468,7 @@ p {
 .achievement .contents{
     margin-inline: auto ;
     max-width: 500px;
-/*     position: relative!important; */
+    position: relative!important;
 }
 
 .swiper-pagination {
