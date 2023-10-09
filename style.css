@@ -387,14 +387,16 @@ p {
 }
 
 .achievement .text {
-    display: block;
-    font-size: 2.4vw;
-    /* padding: 10px; */
+    display: inline-block;
+    font-size: 3vw;
+    white-space: nowrap;
+    text-align: center;
 }
 
 .achievement .text p {
     display: inline-block;
-    margin: 3px 0;
+    margin: 3px 0 3px -20px;
+    padding: 0 10px;
 
 }
 
@@ -410,7 +412,7 @@ p {
 
 .circle3 span,
 .circle4 span {
-    font-size: 3.7vw;
+    font-size: 4vw;
 }
 
 .achievement .circle p {
@@ -453,7 +455,8 @@ p {
     transition: transform 0.6s;
 }
 .swiper{
-    padding-top: 20px!important;
+    padding-top: 50px!important;
+    padding-bottom: 50px!important;
     position: relative!important;
 }
 .swiper .swiper-pagination-bullet{
@@ -470,6 +473,10 @@ p {
 .swiper-slide-duplicate-prev,
 .swoper-slide-duplicate-next {
     transform: scale(0.8)!important;
+}
+
+.swiper-slide-active{
+    transform: scale(1.2)!important;
 }
 
 
