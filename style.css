@@ -445,8 +445,8 @@ p {
 }
 
 .swiper-slide img {
-    height: auto;
     width: 100%;
+    height: auto;
 }
 
 .swiper-slide {
@@ -464,6 +464,15 @@ p {
     position: absolute!important;
     top: 0%!important;
 }
+
+.swiper-slide-prev,
+.swiper-slide-next,
+.swiper-slide-duplicate-prev,
+.swoper-slide-duplicate-next {
+    transform: scale(0.8)!important;
+}
+
+
 
 /* 運用の流れ */
 
