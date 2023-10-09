@@ -4,7 +4,8 @@ $(function () {
     $(".openbtn").click(function () {
         $(this).toggleClass('active');
     });
-    
+
+    // スワイパー
     const swiper = new Swiper(".swiper", {
         loop: true,
         slidesPerView: 2,
@@ -14,16 +15,17 @@ $(function () {
         initialSlide: 1,
         autoplay: {
             delay: 3000,
+            disableOnInteraction: false,
         },
         pagination: {
             el: ".swiper-pagination",
             clickable: true,
         },
 
-        navigation: {
-            nextEl: ".swiper-button-next",
-            prevEl: ".swiper-button-prev",
-        },
+        // navigation: {
+        //     nextEl: ".swiper-button-next",
+        //     prevEl: ".swiper-button-prev",
+        // },
         on: {
             slideChange: function () {
                 jQuery('.swiper-slide-content').css('opacity', '0');
