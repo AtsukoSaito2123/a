@@ -467,13 +467,12 @@ p {
 .achievement .contents{
     margin-inline: auto ;
     max-width: 500px;
-    position: relative!important;
+    position: relative;
 }
 
 .swiper-pagination {
-    bottom: 98％!important;
-　　position: absolute!important;
-/*     bottom: auto!important; */
+    bottom: 98%!important;
+    position: absolute!important;
 }
 
 .swiper-slide-prev,
@@ -488,7 +487,7 @@ p {
 }
 
 .swiper-pagination .my-swiper-pagination{
-    top: 0!important; 
+    top: auto!important; 
     bottom: auto!important;
 }
 
