@@ -8,8 +8,6 @@ $(function () {
     // スワイパー
     const swiper = new Swiper(".swiper", {
         loop: true,
-        mousewheel: true,
-        keyboard: true,
         slidesPerView: 2,
         spaceBetween: 5,
         centerMode: true,
@@ -22,9 +20,6 @@ $(function () {
             el: ".swiper-pagination",
             clickable: true,
         },
-        // mousewheel: {
-        //     forceToAxis: true,
-        // },
 
         navigation: {
             nextEl: ".swiper-button-next",
