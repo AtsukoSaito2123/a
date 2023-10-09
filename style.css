@@ -473,7 +473,7 @@ p {
 .swiper-pagination {
     bottom: 98％!important;
 　　position: absolute!important;
-    top: 0%!important;
+    bottom: auto!important;
 }
 
 .swiper-slide-prev,
@@ -487,11 +487,11 @@ p {
     transform: scale(1.2)!important;
 }
 
-.swiper-pagination .my-swiper-pagination{
+/* .swiper-pagination .my-swiper-pagination{
     top: 0!important; 
     bottom: auto!important;
 
-}
+} */
 
 /* 運用の流れ */
 
