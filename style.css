@@ -412,7 +412,7 @@ p {
 
 .circle3 span,
 .circle4 span {
-    font-size: 3.6vw;
+    font-size: 3.8vw;
 }
 
 .achievement .circle p {
@@ -454,18 +454,27 @@ p {
 .swiper-slide {
     transition: transform 0.6s;
 }
+
 .swiper{
+    border: 1px solid blue;
+    max-width: 500px;
     padding-top: 50px!important;
     padding-bottom: 50px!important;
-    position: relative!important;
+    position: relative;
 }
-.swiper .swiper-pagination-bullet{
+.achievement .swiper-pagination-bullet{
     background-color: #333;
 }
 
-.swiper .swiper-pagination-bullets {
-    position: absolute!important;
-    top: 0%!important;
+.achievement .contents{
+    margin-inline: auto ;
+    max-width: 500px;
+    position: relative;
+}
+
+.swiper-pagination {
+    border: 1px solid red;
+    bottom: 590px!important;
 }
 
 .swiper-slide-prev,
@@ -479,7 +488,12 @@ p {
     transform: scale(1.2)!important;
 }
 
-
+.swiper-pagination .my-swiper-pagination{
+    border: 1px solid red;
+    top: 0!important; 
+    bottom: auto!important;
+    position: absolute!important;
+}
 
 /* 運用の流れ */
 
