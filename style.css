@@ -257,6 +257,12 @@ p {
     box-shadow: 0 2px 7px #0000004e;
 }
 
+.btn1 p,
+.btn2 p{
+    display: inline-block;
+    padding-top: 10px;
+}
+
 .btn1:active,
 .btn2:active {
     box-shadow: none;
@@ -404,13 +410,18 @@ p {
     font-size: 6vw;
 }
 
+.circle2 span{
+    display: inline-block;
+    margin-bottom: -15px;
+}
+
 .circle3 span,
 .circle4 span {
-    font-size: 3.8vw;
+    font-size: 4vw;
 }
 
 .achievement .circle p {
-    font-size: 2vw;
+    font-size: 2.2vw;
 }
 
 .achievement .circle {
@@ -436,7 +447,7 @@ p {
 .circle3,
 .circle4 {
     position: absolute;
-    bottom: 25%;
+    bottom: 30%;
     left: -17%;
 }
 
