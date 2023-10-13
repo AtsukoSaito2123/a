@@ -2,7 +2,7 @@
 
 html {
     font-size: 62.5%;
-    font-family: 'Inter', sans-serif;
+    font-family: 'Noto Sans JP', sans-serif;
 }
 
 body {
@@ -50,6 +50,7 @@ body {
     -webkit-background-clip: text;
     background-clip: text;
     -webkit-text-fill-color: transparent;
+    margin: 40px 0 20px;
 }
 
 a {
@@ -81,6 +82,10 @@ p {
     font-weight: bold;
 }
 
+main {
+    padding-top: 50px;
+}
+
 .sec-title {
     font-size: 8vw;
     padding: 15px 0;
@@ -91,9 +96,11 @@ p {
     box-shadow: 0 2px 7px #0000004e;
 }
 
-/* ヘッダー */
 #header {
     height: 50px;
+    position: fixed;
+    z-index: 100;
+    width: 100%;
 }
 
 #header .wrapper {
@@ -114,8 +121,6 @@ p {
     margin-right: 10px;
 }
 
-
-/* ハンバーガーメニュー */
 .openbtn {
     position: relative;
     cursor: pointer;
@@ -169,7 +174,6 @@ p {
     transform: translateY(-6px) rotate(135deg);
 }
 
-/* トップページ */
 .top-page {
     background-size: cover;
 }
@@ -179,11 +183,11 @@ p {
     color: #fff;
 }
 
-.top-page p {
+.top-page .sub-text_1 {
     font-size: 4.6vw;
 }
 
-.top-page .sub-text {
+.top-page .sub-text_2 {
     font-size: 2.5vw;
 }
 
@@ -199,8 +203,8 @@ p {
 .top-page .key p {
     font-size: 5.6vw;
     display: inline-block;
-    margin: 5px;
-    padding: 2px 10px;
+    margin: 1px;
+    padding: 0 10px;
 }
 
 .phones {
@@ -215,6 +219,7 @@ p {
     position: relative;
     max-width: 400px;
     margin: 0 auto;
+    /* text-align: center; */
 }
 
 .supporter .illust1 {
@@ -226,23 +231,25 @@ p {
 }
 
 .supporter .clients {
+    display: inline-block;
+    width: 90%;
     margin-bottom: 15px;
 }
 
 .btn1,
 .btn2 {
     border: 3px solid #fff;
-    font-size: 5.5vw;
+    font-size: 4.3vw;
     border-radius: 13px;
-    margin: 0 5%;
-    padding: 3%;
+    margin: 0 10%;
+    padding: 2% 5%;
     background: rgba(89, 183, 92, 1);
     display: flex;
+    justify-content: space-between;
     align-items: center;
     color: #fff;
     box-shadow: 0 2px 7px #0000004e;
 }
-
 
 .btn1:active,
 .btn2:active {
@@ -264,31 +271,15 @@ p {
 }
 
 
-.btn1,
-.btn2 {
-    border: 3px solid #fff;
-    font-size: 5vw;
-    border-radius: 13px;
-    margin: 0 5%;
-    padding: 3%;
-    background: rgba(89, 183, 92, 1);
-    display: flex;
-    align-items: center;
-    color: #fff;
-    box-shadow: 0 2px 7px #0000004e;
-}
-
-.btn1 img {
-    width: 20%;
+.btn1 img,
+.btn2 img {
+    width: 15%;
     margin-right: 10%;
 }
 
-.btn2 img {
-    width: 20%;
-    margin-right: 5%;
+.btn2 {
+    margin-bottom: 20px;
 }
-
-/* お悩みありませんか */
 
 .problem-presentation .inner {
     border-radius: 20px;
@@ -301,13 +292,13 @@ p {
     padding: 20px 5% 30px;
 }
 
-
 .problem-presentation .sec-title {
-    padding: 15px;
+    padding: 15px 0;
 }
 
 .problem-presentation .sub-title {
     font-size: 4vw;
+    padding-top: 30px;
 }
 
 .problem-presentation .item {
@@ -319,11 +310,9 @@ p {
     padding: 20px;
 }
 
-
 .problem-presentation .item:nth-child(6) {
     line-height: 45px;
 }
-
 
 .problem-presentation .illust2 {
     position: absolute;
@@ -338,7 +327,6 @@ p {
     width: 10%;
 }
 
-/* 解決します */
 .solution .inner {
     max-width: 500px;
     position: relative;
@@ -362,21 +350,18 @@ p {
 
 .solution .text {
     font-size: 4.5vw;
+    padding-top: 50px;
 }
 
 .solution .sub-text1 {
     padding: 20px 0;
 }
 
-
-
 .solution .logo-under {
     margin: 0 auto;
     width: 80%;
 }
 
-
-/* 実績 */
 .achievement .sec-title {
     color: #fff;
 }
@@ -397,13 +382,11 @@ p {
     display: inline-block;
     margin: 3px 0 3px -20px;
     padding: 0 10px;
-
 }
 
 .achievement .sub-text {
     font-size: 3vw;
 }
-
 
 .circle1 span,
 .circle2 span {
@@ -455,43 +438,42 @@ p {
     transition: transform 0.6s;
 }
 
-.swiper{
+.swiper {
     max-width: 500px;
-    padding-top: 50px!important;
-    padding-bottom: 50px!important;
+    padding-top: 50px !important;
+    padding-bottom: 80px !important;
 }
-.achievement .swiper-pagination-bullet{
+
+.achievement .swiper-pagination-bullet {
     background-color: #333;
 }
 
-.achievement .contents{
-    margin-inline: auto ;
+.achievement .contents {
+    margin-inline: auto;
     max-width: 500px;
     position: relative;
 }
 
 .swiper-pagination {
-    bottom: 98%!important;
-    position: absolute!important;
+    bottom: 98% !important;
+    position: absolute !important;
 }
 
 .swiper-slide-prev,
 .swiper-slide-next,
 .swiper-slide-duplicate-prev,
 .swoper-slide-duplicate-next {
-    transform: scale(0.8)!important;
+    transform: scale(0.8) !important;
 }
 
-.swiper-slide-active{
-    transform: scale(1.2)!important;
+.swiper-slide-active {
+    transform: scale(1.2) !important;
 }
 
-.swiper-pagination .my-swiper-pagination{
-    top: auto!important; 
-    bottom: auto!important;
+.swiper-pagination .my-swiper-pagination {
+    top: auto !important;
+    bottom: auto !important;
 }
-
-/* 運用の流れ */
 
 .method .sub-text {
     margin-bottom: 40px;
@@ -506,7 +488,7 @@ p {
 
 .method .method-title4 {
     border-bottom: 1px dotted black;
-    font-size: 1.7rem;
+    font-size: 6vw;
 }
 
 .method .item {
@@ -514,6 +496,10 @@ p {
     padding: 0 5% 20px;
     position: relative;
     margin-bottom: 30px;
+}
+
+.method .item:last-child {
+    margin-bottom: 0;
 }
 
 .method .step {
@@ -572,7 +558,7 @@ p {
 
 
 .item .sub-title {
-    padding: 10px 0;
+    padding: 15px 0 0;
 }
 
 .method .illust3 {
@@ -585,12 +571,13 @@ p {
     width: 40%;
 }
 
+.voice {
+    padding-bottom: 20px;
+}
 
-/* お客様の声 */
-
-.voice .slick-area2 {
+.voice .slick-area {
     padding: 0;
-    margin: 8% 8% 0;
+    margin: 0 8%;
 }
 
 .voice .name {
@@ -600,43 +587,48 @@ p {
 
 .voice .text {
     text-align: left;
-    margin-bottom: 20px;
 }
 
-.slick-area2 .slick-item {
+
+.slick-track {
+    display: flex;
+}
+
+.slick-item {
     box-shadow: 0 2px 7px #0000004e;
     padding: 20px 5%;
     margin: 3%;
+    height: 380px!important;
 }
 
-.slick-area2 .slick-arrow {
-    z-index: 2 !important;
-}
 
-.slick-area2 .slick-arrow::before {
-    content: "" !important;
+.slick-arrow {
+    z-index: 2;
     width: 30px !important;
     height: 30px !important;
+}
+
+.slick-arrow:before {
     position: absolute;
+    content: "" !important;
+    position: absolute;
+    width: 100% !important;
+    height: 100% !important;
     top: 0;
-    left: 0;
+    left: 50%;
 }
 
-.slick-area2 .slick-prev::before {
-    background: url(img/left.png) !important;
-    background-size: contain !important;
-    top: 40% !important;
-    left: 50% !important;
+.slick-prev:before {
+    background: url(img/left.png);
+    background-size: contain;
 }
 
-.slick-area2 .slick-next::before {
-    background: url(img/right.png) !important;
-    background-size: contain !important;
-    top: 40% !important;
-    left: -100% !important;
+.slick-next:before {
+    background: url(img/right.png);
+    background-size: contain;
+    left: -50%
 }
 
-/* 選ばれる理由 */
 .selected .heading {
     display: flex;
     align-items: end;
@@ -647,6 +639,7 @@ p {
     text-align: right;
     width: 100%;
     padding-left: 10px;
+    padding-right: 10px;
 }
 
 .selected .text-right p {
@@ -655,11 +648,12 @@ p {
 
 .selected .text-left {
     width: 70%;
+    padding-left: 10px;
     text-align: left;
 }
 
-
 .selected img {
+    margin: 10px;
     width: 20%;
     object-fit: cover;
 }
@@ -685,32 +679,29 @@ p {
     border-right: 6px solid rgba(252, 95, 95, 1);
 }
 
-/* ディレクター */
-
 .director {
     padding: 50px 5%;
 }
 
 .director .inner {
-    border-radius: 20px;
+    border-radius: 30px;
 }
 
 .director .item {
     margin: 20px auto;
 }
 
-
 .director .item img {
     display: inline-block;
-    width: 120px;
+    width: 200px;
     border-radius: 50%;
 }
 
 .director h3 {
     display: inline-block;
-    padding: 0 10%;
+    padding: 10px 10% 0;
     font-size: 3vw;
-    background: linear-gradient(transparent 40%, rgba(252, 95, 95, 0.5) 0%);
+    background: linear-gradient(transparent 70%, rgba(252, 95, 95, 0.5) 0%);
 }
 
 .director .item .sub-title {
@@ -721,12 +712,13 @@ p {
     width: 120px;
     font-size: 3vw;
     color: #fff;
-    margin: 5px;
+    margin: 17px 0 3px;
     padding: 3px 10px;
     border-radius: 3px;
     display: inline-block;
     background: rgba(0, 88, 230, 1);
 }
+
 .director .item .sub-text {
     font-size: 4vw;
 }
@@ -785,11 +777,8 @@ p {
     border-color: transparent transparent #fff transparent;
 }
 
-
-/* オススメ */
-
 .recommend {
-    padding-bottom: 50px;
+    padding: 0 0 20px;
 }
 
 .recommend .item {
@@ -800,7 +789,6 @@ p {
     border-radius: 40px;
 }
 
-/* よくある質問 */
 .question {
     padding: 0 5% 70px;
 }
@@ -820,13 +808,13 @@ p {
     padding: 10px 15px;
     color: #333333;
     font-weight: bold;
+    font-size: 4.5vw;
     cursor: pointer;
 }
 
 .accordion-003 summary::-webkit-details-marker {
     display: none;
 }
-
 
 .accordion-003 summary::after {
     content: '';
@@ -848,10 +836,11 @@ p {
     opacity: 0;
     margin: 0;
     padding: 10px 15px 10px;
-    transition: transform .5s, opacity .5s;
+    transition: transform 0.5s, opacity 0.5s;
 }
 
 .accordion-003[open] p {
+    font-size: 4.3vw;
     transform: none;
     opacity: 1;
 }
