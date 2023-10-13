@@ -5,7 +5,6 @@ $(function () {
         $(this).toggleClass('active');
     });
 
-    // スワイパー
     const swiper = new Swiper(".swiper", {
         loop: true,
         slidesPerView: 2,
@@ -22,10 +21,6 @@ $(function () {
             clickable: true,
         },
 
-        // navigation: {
-        //     nextEl: ".swiper-button-next",
-        //     prevEl: ".swiper-button-prev",
-        // },
         on: {
             slideChange: function () {
                 jQuery('.swiper-slide-content').css('opacity', '0');
@@ -35,7 +30,7 @@ $(function () {
         },
     });
 
-    $('.slick-area2').slick({
+    $('.slick-area').slick({
         arrows: true,
         slidesToShow: 1,
         slidesToScroll: 1,
