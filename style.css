@@ -70,6 +70,7 @@ img {
 .container {
     background-image: url(img/background.png);
     background-size: cover;
+    padding-top: 50px;
 }
 
 section {
@@ -80,10 +81,6 @@ section {
 
 p {
     font-weight: bold;
-}
-
-main {
-    padding-top: 50px;
 }
 
 .sec-title {
