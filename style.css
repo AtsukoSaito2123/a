@@ -6,7 +6,6 @@ html {
 }
 
 body {
-    /* line-height: 2; */
     background: linear-gradient(90deg, rgb(253, 97, 95), rgb(255, 151, 79));
 }
 
@@ -54,7 +53,7 @@ body {
     -webkit-background-clip: text;
     background-clip: text;
     -webkit-text-fill-color: transparent;
-    margin: 50px 0 20px;
+    margin: 60px 0 20px;
 }
 
 .top-page .sec-title,
@@ -63,6 +62,7 @@ body {
 .achievement .sec-title,
 .price .sec-title{
     padding: 30px 0 20px;
+    line-height: 1;
 }
 
 a {
@@ -199,10 +199,6 @@ p {
     font-size: 2.5vw;
 }
 
-.top-page .sec-title {
-    padding: 15px 0;
-}
-
 .top-page .key {
     margin: 20px 0;
     color: black;
@@ -227,7 +223,6 @@ p {
     position: relative;
     max-width: 400px;
     margin: 0 auto;
-    /* text-align: center; */
 }
 
 .supporter .illust1 {
@@ -363,10 +358,6 @@ p {
     border-right: calc(50vw - 20px) solid transparent;
 }
 
-/* .solution .text {
-    font-size: 4.5vw;
-    padding-top: 50px;
-} */
 
 .solution .sub-text1{
     padding: 30px 0 15px;
@@ -602,7 +593,7 @@ p {
 
 .voice .slick-area {
     padding: 0;
-    margin: 0 8%;
+    margin: 0 3%;
 }
 
 .voice .name {
@@ -623,6 +614,7 @@ p {
     padding: 20px 5%;
     margin: 3%;
     height: 400px!important;
+    /* width: 270px; */
 }
 
 
@@ -639,7 +631,7 @@ p {
     width: 100% !important;
     height: 100% !important;
     top: 0;
-    left: 50%;
+    left: 60%;
 }
 
 .slick-prev:before {
@@ -650,7 +642,7 @@ p {
 .slick-next:before {
     background: url(img/right.png);
     background-size: contain;
-    left: -50%
+    left: -60%
 }
 
 .selected .heading {
