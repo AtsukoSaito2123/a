@@ -831,13 +831,16 @@ p {
     text-align: left;
     display: flex;
     justify-content: space-between;
+    top: 10px;
     align-items: center;
     position: relative;
-    padding: 10px 15px;
+    padding: 15px 15px;
     color: #333333;
     font-weight: bold;
     font-size: 4.5vw;
     cursor: pointer;
+    line-height: 1.5;
+
 }
 
 .accordion-003 summary::-webkit-details-marker {
