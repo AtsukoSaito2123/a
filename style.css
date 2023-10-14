@@ -93,6 +93,8 @@ section {
 
 p {
     font-weight: bold;
+    line-height: 1.5;
+    padding-top: 10px;
 }
 
 
@@ -682,7 +684,7 @@ p {
 .selected .sub-title {
     text-align: left;
     padding: 10px;
-    font-size: 5vw;
+    font-size: 8vw;
     width: 70%;
 }
 
@@ -692,12 +694,12 @@ p {
 }
 
 .selected .left {
-    border-left: 6px solid rgba(252, 95, 95, 1);
+    border-left: 8px solid rgba(252, 95, 95, 1);
 }
 
 .selected .right {
     margin: 20px 0;
-    border-right: 6px solid rgba(252, 95, 95, 1);
+    border-right: 8px solid rgba(252, 95, 95, 1);
 }
 
 .director {
@@ -720,28 +722,31 @@ p {
 
 .director h3 {
     display: inline-block;
-    padding: 10px 10% 0;
-    font-size: 3vw;
-    background: linear-gradient(transparent 70%, rgba(252, 95, 95, 0.5) 0%);
-}
+    line-height: 0.5;
+    margin: 10px 0;
+    padding: 20px 5% 0;
+    font-size: 4vw;
+    background: linear-gradient(transparent 70%, rgba(252, 95, 95, 0.3) 0%);
+    }
 
 .director .item .sub-title {
-    font-size: 5vw;
+    font-size: 5.4vw;
+    margin-bottom: 15px;
 }
 
 .director h4 {
     width: 120px;
-    font-size: 3vw;
+    font-size: 3.2vw;
     color: #fff;
-    margin: 17px 0 3px;
-    padding: 3px 10px;
-    border-radius: 3px;
+    margin: 5px 0 5px;
+    padding-top: 10px;
+    border-radius: 6px;
     display: inline-block;
     background: rgba(0, 88, 230, 1);
 }
 
 .director .item .sub-text {
-    font-size: 4vw;
+    font-size: 4.3vw;
 }
 
 .price {
@@ -763,7 +768,7 @@ p {
 
 .price .type {
     color: rgba(53, 136, 71, 1);
-    font-size: 4vw;
+    font-size: 5vw;
 }
 
 .price .price-tag {
