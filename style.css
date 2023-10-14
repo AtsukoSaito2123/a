@@ -619,8 +619,7 @@ p {
 
 
 .slick-arrow {
-    z-index: 2;
-    width: 30px !important;
+    width:30px !important;
     height: 30px !important;
 }
 
