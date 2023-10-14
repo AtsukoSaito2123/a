@@ -619,8 +619,9 @@ p {
 
 
 .slick-arrow {
-    width:30px !important;
-    height: 30px !important;
+    z-index: 2;
+    width:40px !important;
+    height: 40px !important;
 }
 
 .slick-arrow:before {
@@ -636,11 +637,13 @@ p {
 .slick-prev:before {
     background: url(img/left.png);
     background-size: contain;
+    background-repeat:no-repeat ;
 }
 
 .slick-next:before {
     background: url(img/right.png);
     background-size: contain;
+    background-repeat:no-repeat ;
     left: -60%
 }
 
