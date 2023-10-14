@@ -757,7 +757,7 @@ p {
 .price .inner {
     padding: 20px 0;
     background: #fff;
-    border-radius: 10px;
+    border-radius: 30px;
     margin-bottom: 30px;
 }
 
@@ -799,7 +799,7 @@ p {
 }
 
 .recommend {
-    padding: 0 0 20px;
+    padding: 30px 0;
 }
 
 .recommend .item {
@@ -811,7 +811,7 @@ p {
 }
 
 .question {
-    padding: 0 5% 70px;
+    padding: 0 5% 100px;
 }
 
 .accordion-003 {
