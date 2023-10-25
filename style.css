@@ -240,7 +240,7 @@ p {
 .btn1,
 .btn2 {
     border: 3px solid #fff;
-    font-size: 1.6rem;
+    font-size: 1.7rem;
     border-radius: 13px;
     margin: 0 10%;
     padding: 2% 5%;
@@ -319,7 +319,7 @@ p {
     border-radius: 50px;
     margin-bottom: 10px;
     box-shadow: 0 2px 7px #0000004e;
-    font-size: 1.4rem;
+    font-size: 1.6rem;
     padding: 20px;
 }
 
@@ -401,7 +401,7 @@ p {
 
 .achievement .text p {
     display: inline-block;
-    margin: 1px 0 1px -15px;
+    margin: 1px 0 1px -10px;
     padding: 5px 10px 0;
 }
 
@@ -412,25 +412,25 @@ p {
 
 .circle1 span,
 .circle2 span {
-    font-size: 1.5rem;
-}
-
-.circle2 span {
+    font-size: 2rem;
+    line-height: 0.5;
+    padding-top: 10px;
     display: inline-block;
 }
 
 .circle3 span,
 .circle4 span {
-    font-size: 1.5rem;
+    font-size: 1.4rem;
 }
 
 .achievement .circle p {
-    font-size: 0.9rem;
+    font-size: 0.8rem;
 }
 
+
 .achievement .circle {
-    width: 85px;
-    height: 85px;
+    width: 75px;
+    height: 75px;
     border-radius: 50%;
     border: 1px solid black;
     background: #fff;
@@ -452,8 +452,9 @@ p {
 .circle4 {
     position: absolute;
     bottom: 30%;
-    left: -17%;
+    left: -15%;
 }
+
 
 .swiper-slide img {
     width: 100%;
@@ -812,7 +813,7 @@ p {
 }
 
 .recommend .item {
-    font-size: 1.3rem;
+    font-size: 1.6rem;
     box-shadow: 0 2px 7px #0000004e;
     margin: 5% 10% 0;
     padding: 20px;
@@ -877,19 +878,21 @@ p {
 
 
 @media(max-width:500px){
-    /* .solution .inner::after {
-        content: "";
-        position: absolute;
-        left: 50%;
-        transform: translateX(-50%);
-        top: 99.9%;
-        border-top: 50px solid #fff;
-        border-left: 200px solid transparent;
-        border-right: 200px solid transparent;
-    } */
+.problem-presentation .item{
+    font-size: 1.4rem;
+    }
+    .recommend .item{
+    font-size: 1.4rem;
+}
 
     .slick-item{
         height: 400px  !important;
+    }
+
+    .achievement .text p {
+        display: inline-block;
+        margin: 1px 0 1px -30px;
+        padding: 5px 10px 0;
     }
     
 }
@@ -905,6 +908,21 @@ p {
         border-top: 50px solid #fff;
         border-left: 225px solid transparent;
         border-right: 225px solid transparent;
+    }
+
+}
+
+@media(max-width: 370px){
+    .btn1,
+    .btn2 {
+        font-size: 1.3rem;
+    }
+
+    .circle1,
+    .circle2,
+    .circle3,
+    .circle4 {
+        bottom: 35%;
     }
 
 }
