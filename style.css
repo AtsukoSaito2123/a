@@ -310,7 +310,7 @@ p {
 }
 
 .problem-presentation .sub-title {
-    font-size: 1.5rem;
+    font-size: 1.6rem;
     padding-top: 30px;
 }
 
@@ -365,7 +365,7 @@ p {
 }
 
 .solution .text {
-    font-size: 1.5rem;
+    font-size: 1.9rem;
     padding-top: 30px;
 }
 
@@ -394,7 +394,7 @@ p {
 
 .achievement .text {
     display: inline-block;
-    font-size: 1.2rem;
+    font-size: 1.5rem;
     white-space: nowrap;
     text-align: center;
 }
@@ -728,12 +728,12 @@ p {
 .director h3 {
     display: inline-block;
     padding: 30px 5% 0;
-    font-size: 1.5rem;
+    font-size: 1.7rem;
     background: linear-gradient(transparent 70%, rgba(252, 95, 95, 0.5) 0%);
 }
 
 .director .item .sub-title {
-    font-size: 1.7rem;
+    font-size: 2rem;
 }
 
 .director h4 {
@@ -748,7 +748,7 @@ p {
 }
 
 .director .item .sub-text {
-    font-size: 1.5rem;
+    font-size: 1.7rem;
 }
 
 .price {
@@ -839,7 +839,7 @@ p {
     padding: 10px 15px;
     color: #333333;
     font-weight: bold;
-    font-size: 1.5rem;
+    font-size: 1.9rem;
     cursor: pointer;
 }
 
@@ -871,7 +871,7 @@ p {
 }
 
 .accordion-003[open] p {
-    font-size: 1.5rem;
+    font-size: 1.8rem;
     transform: none;
     opacity: 1;
 }
@@ -879,22 +879,26 @@ p {
 
 @media(max-width:500px){
 .problem-presentation .item{
-    font-size: 1.4rem;
+    font-size: 1.8rem;
     }
     .recommend .item{
-    font-size: 1.4rem;
+    font-size: 1.7rem;
 }
 
-    .slick-item{
-        height: 400px  !important;
-    }
+.slick-item{
+    height: 400px  !important;
+}
 
-    .achievement .text p {
-        display: inline-block;
-        margin: 1px 0 1px -30px;
-        padding: 5px 10px 0;
-    }
-    
+.achievement .text p {
+    display: inline-block;
+    margin: 1px 0 1px -45px;
+    padding: 5px 10px 0;
+}
+
+.achievement .text4 p{
+    margin: 1px 0;
+}
+
 }
 
 
@@ -909,13 +913,20 @@ p {
         border-left: 225px solid transparent;
         border-right: 225px solid transparent;
     }
-
+    
 }
 
 @media(max-width: 370px){
     .btn1,
     .btn2 {
         font-size: 1.3rem;
+    }
+
+    .problem-presentation .item{
+        font-size: 1.5rem;
+        }
+        .recommend .item{
+        font-size: 1.5rem;
     }
 
     .circle1,
