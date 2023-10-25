@@ -5,8 +5,6 @@ html {
     font-family: 'Noto Sans Javanese', sans-serif;
     max-width: 500px;
     margin: 0 auto;
-    /* line-height: 2; */
-    /* background: linear-gradient(90deg, rgb(253, 97, 95), rgb(255, 151, 79)); */
 }
 
 .method,
@@ -38,7 +36,7 @@ html {
 }
 
 .sec-title {
-    font-size: 3.5rem;
+    font-size: 2.8rem;
 }
 
 .selected .sec-title,
@@ -93,7 +91,6 @@ section {
 p {
     font-weight: bold;
 }
-
 
 
 .inner {
@@ -188,7 +185,7 @@ p {
 }
 
 .top-page .sub-text_1 {
-    font-size: 2.3rem;
+    font-size: 1.8rem;
 }
 
 .top-page .sub-text_2 {
@@ -205,7 +202,7 @@ p {
 }
 
 .top-page .key p {
-    font-size: 2.5rem;
+    font-size: 2rem;
     display: inline-block;
     margin: 1px;
     padding: 10px 10px 0;
@@ -243,7 +240,7 @@ p {
 .btn1,
 .btn2 {
     border: 3px solid #fff;
-    font-size: 1.5rem;
+    font-size: 1.3rem;
     border-radius: 13px;
     margin: 0 10%;
     padding: 2% 5%;
@@ -320,7 +317,7 @@ p {
     border-radius: 50px;
     margin-bottom: 10px;
     box-shadow: 0 2px 7px #0000004e;
-    font-size: 1.3rem;
+    font-size: 1.4rem;
     padding: 20px;
 }
 
@@ -356,12 +353,13 @@ p {
 .solution .inner::after {
     content: "";
     position: absolute;
+    max-width: 500px;
     left: 50%;
     transform: translateX(-50%);
     top: 99.9%;
-    border-top: 60px solid #fff;
-    border-left: 225px solid transparent;
-    border-right: 225px solid transparent;
+    border-top: 7vh solid #fff;
+    border-left: 45vw solid transparent;
+    border-right: 45vw solid transparent;
 }
 
 .solution .text {
@@ -417,7 +415,6 @@ p {
 
 .circle2 span {
     display: inline-block;
-    margin-bottom: -15px;
 }
 
 .circle3 span,
@@ -426,7 +423,7 @@ p {
 }
 
 .achievement .circle p {
-    font-size: 1rem;
+    font-size: 0.9rem;
 }
 
 .achievement .circle {
@@ -540,7 +537,7 @@ p {
 .method-text {
     padding-top: 15px;
     text-align: left;
-    font-size: 1.5rem;
+    font-size: 1.3rem;
 }
 
 .method .concept {
@@ -688,7 +685,7 @@ p {
 .selected .sub-title {
     text-align: left;
     padding: 10px;
-    font-size: 3rem;
+    font-size: 2.5rem;
     width: 70%;
 }
 
@@ -698,12 +695,12 @@ p {
 }
 
 .selected .left {
-    border-left: 6px solid rgba(252, 95, 95, 1);
+    border-left: 8px solid rgba(252, 95, 95, 1);
 }
 
 .selected .right {
     margin: 20px 0;
-    border-right: 6px solid rgba(252, 95, 95, 1);
+    border-right: 8px solid rgba(252, 95, 95, 1);
 }
 
 .director {
@@ -726,13 +723,13 @@ p {
 
 .director h3 {
     display: inline-block;
-    padding: 12px 5% 0;
+    padding: 30px 5% 0;
     font-size: 1.5rem;
-    background: linear-gradient(transparent 60%, rgba(252, 95, 95, 0.5) 0%);
+    background: linear-gradient(transparent 70%, rgba(252, 95, 95, 0.5) 0%);
 }
 
 .director .item .sub-title {
-    font-size: 2rem;
+    font-size: 1.7rem;
 }
 
 .director h4 {
@@ -740,7 +737,7 @@ p {
     font-size: 1.2rem;
     color: #fff;
     margin: 17px 0 3px;
-    padding: 3px 10px;
+    padding: 5px 10px 0;
     border-radius: 3px;
     display: inline-block;
     background: rgba(0, 88, 230, 1);
@@ -873,4 +870,38 @@ p {
     font-size: 1.5rem;
     transform: none;
     opacity: 1;
+}
+
+
+@media(max-width:500px){
+    /* .solution .inner::after {
+        content: "";
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+        top: 99.9%;
+        border-top: 50px solid #fff;
+        border-left: 200px solid transparent;
+        border-right: 200px solid transparent;
+    } */
+
+    .slick-item{
+        height: 400px  !important;
+    }
+    
+}
+
+
+@media(min-width: 500px){
+    .solution .inner::after {
+        content: "";
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+        top: 100%;
+        border-top: 50px solid #fff;
+        border-left: 225px solid transparent;
+        border-right: 225px solid transparent;
+    }
+
 }
