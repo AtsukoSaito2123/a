@@ -341,12 +341,11 @@ p {
 .solution .inner {
     max-width: 500px;
     position: relative;
-
+    filter: drop-shadow(0 2px 2px #0000004e);
 }
 
 .solution {
     background: linear-gradient(90deg, rgb(253, 97, 95), rgb(255, 151, 79));
-    filter: drop-shadow(0 2px 2px #0000004e);
     padding: 20px 5% 100px;
 }
 
