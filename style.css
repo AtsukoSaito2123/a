@@ -405,7 +405,6 @@ p {
     padding: 5px 10px 0;
 }
 .achievement .text4 p {
-    border: 1px solid yellow;
     margin: 1px 0 1px 0px;
 }
 
@@ -900,7 +899,6 @@ p {
 }
 
 .achievement .text4 p{
-    border: 1px solid red;
     margin: 1px 0 1px -10px;
 }
 
@@ -949,7 +947,6 @@ p {
     }
 
     .achievement .text4 p{
-        border: 1px solid blue;
         margin: 1px 0 1px 50px;
     }
 
