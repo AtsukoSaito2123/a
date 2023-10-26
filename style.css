@@ -404,6 +404,10 @@ p {
     margin: 1px 0 1px -10px;
     padding: 5px 10px 0;
 }
+.achievement .text4 p {
+    border: 1px solid yellow;
+    margin: 1px 0 1px 0px;
+}
 
 .achievement .sub-text {
     padding-top: 20px;
