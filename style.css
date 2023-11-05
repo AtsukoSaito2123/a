@@ -633,11 +633,12 @@ p {
 }
 
 .voice .name {
-    font-size: 1.7rem;
+    font-size: 2rem;
     padding: 15px 0;
 }
 
 .voice .text {
+    font-size: 1.38rem;
     text-align: left;
 }
 
@@ -649,7 +650,7 @@ p {
     box-shadow: 0 2px 7px #0000004e;
     padding: 20px 5%;
     margin: 3%;
-    height: 450px !important;
+    height: 500px !important;
 }
 
 
@@ -683,6 +684,10 @@ p {
 .selected .heading {
     display: flex;
     align-items: end;
+}
+
+.selected p {
+    font-size: 1.3rem;
 }
 
 .selected .text-right {
@@ -863,7 +868,7 @@ p {
     position: relative;
     padding: 10px 15px;
     font-weight: bold;
-    font-size: 1.9rem;
+    font-size: 1.3rem;
     cursor: pointer;
 }
 
@@ -896,7 +901,7 @@ p {
 }
 
 .accordion-003[open] p {
-    font-size: 1.8rem;
+    font-size: 1.3rem;
     transform: none;
     opacity: 1;
 }
@@ -904,7 +909,7 @@ p {
 
 @media(max-width:475px) {
 
-    .sec-title{
+    .sec-title {
         font-size: 8vw;
     }
 
@@ -917,7 +922,7 @@ p {
     }
 
     .slick-item {
-        height: 400px !important;
+        height: 500px !important;
     }
 
     .achievement .text p {
@@ -932,18 +937,18 @@ p {
     .circle-height p {
         font-size: 2vw;
     }
-
-    .circle4 p{
+    
+    .circle4 p {
         font-size: 1.8vw;
     }
-
+    
     .circle1 span,
     .circle2 span {
         font-size: 4vw;
         line-height: 0.8;
         padding-top: 10px;
     }
-
+    
 
     .circle4 span,
     .circle3 span {
@@ -951,7 +956,11 @@ p {
         padding-top: -5px;
         font-size: 3vw;
     }
-
+    
+    .problem-presentation .item,
+    .recommend .item {
+        font-size: 4vw;
+    }
 }
 
 @media(min-width: 500px) {
@@ -975,18 +984,29 @@ p {
         font-size: 1.2rem;
     }
 
-    .problem-presentation .item,
-    .recommend .item {
-        font-size: 1.5rem;
-    }
 
     .solution .text {
         font-size: 4.5vw;
     }
 
+    .director h3{
+        font-size: 4vw;
+        padding: 15px 5% 0;
+    }
+
+    .director .item .sub-title {
+        font-size: 5vw;
+    }
+    
+    .director .item .sub-text {
+        font-size: 4.5vw;
+        
+    }
+
+
 }
 
-@media(max-width:350px){
+@media(max-width:350px) {
     .solution {
         padding-bottom: 50px;
     }
