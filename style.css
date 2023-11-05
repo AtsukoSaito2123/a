@@ -37,7 +37,7 @@ html {
 }
 
 .sec-title {
-    font-size: 2.8rem;
+    font-size: 3rem;
 }
 
 .selected .sec-title,
@@ -350,7 +350,7 @@ p {
 
 .solution {
     background: linear-gradient(90deg, rgb(253, 97, 95), rgb(255, 151, 79));
-    padding: 20px 5% 100px;
+    padding: 20px 5% 90px;
 }
 
 .solution .inner::after {
@@ -404,40 +404,57 @@ p {
     padding: 5px 5px 0;
 }
 
-
 .achievement .sub-text {
     padding-top: 20px;
-    font-size: 0.9rem;
+    font-size: 1.2rem;
+}
+
+.achievement .circle-width {
+    width: 35%;
+    border: 1px solid #333;
+    border-radius: 50%;
+    background-color: #fff;
+}
+
+.circle-height {
+    position: relative;
+    padding-top: 100%;
+    height: 0;
+}
+
+.circle-height p {
+    padding-top: 5px;
+    position: absolute;
+    top: 25%;
+    left: 0;
+    right: 0;
+    margin: 0;
+    text-align: center;
+    font-size: 1rem;
+    display: block;
+}
+
+.circle2 p {
+    line-height: 0.7;
 }
 
 .circle1 span,
 .circle2 span {
+    display: block;
     font-size: 2rem;
     line-height: 0.5;
     padding-top: 10px;
-    display: inline-block;
-}
-
-.circle3 span,
-.circle4 span {
-    font-size: 1.4rem;
-}
-
-.achievement .circle p {
-    font-size: 0.8rem;
 }
 
 
-.achievement .circle {
-    width: 75px;
-    height: 75px;
-    border-radius: 50%;
-    border: 1px solid black;
-    background: #fff;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+.circle4 span,
+.circle3 span {
+    display: block;
+    line-height: 0.5;
+    padding-top: 10px;
+    font-size: 1.5rem;
 }
+
 
 .swiper-item1,
 .swiper-item2,
@@ -447,13 +464,11 @@ p {
     width: 900px;
 }
 
-.circle1,
-.circle2,
-.circle3,
-.circle4 {
+
+.circle-width {
     position: absolute;
-    bottom: 22%;
-    left: 0;
+    bottom: 27%;
+    left: -10%;
 }
 
 
@@ -467,7 +482,7 @@ p {
 }
 
 .swiper {
-    padding-top: 50px !important;
+    padding-top: 60px !important;
     padding-bottom: 90px !important;
 }
 
@@ -889,6 +904,10 @@ p {
 
 @media(max-width:475px) {
 
+    .sec-title{
+        font-size: 6vw;
+    }
+
     .problem-presentation .item {
         font-size: 1.8rem;
     }
@@ -902,19 +921,31 @@ p {
     }
 
     .achievement .text p {
-        font-size: 1.1rem;
+        font-size: 2.5vw;
     }
 
-    .circle1,
-    .circle2,
-    .circle3,
-    .circle4 {
-        bottom: 25%;
-        left: -5%;
-    }
 
     .method .method-title {
         font-size: 2rem;
+    }
+
+    .circle-height p {
+        font-size: 2vw;
+    }
+
+    .circle1 span,
+    .circle2 span {
+        font-size: 4vw;
+        line-height: 0.8;
+        padding-top: 10px;
+    }
+
+
+    .circle4 span,
+    .circle3 span {
+        line-height: 0.5;
+        padding-top: -5px;
+        font-size: 3vw;
     }
 
 }
@@ -933,7 +964,6 @@ p {
 
 }
 
-
 @media(max-width: 375px) {
 
     .btn1,
@@ -941,10 +971,7 @@ p {
         font-size: 1.2rem;
     }
 
-    .problem-presentation .item {
-        font-size: 1.5rem;
-    }
-
+    .problem-presentation .item,
     .recommend .item {
         font-size: 1.5rem;
     }
@@ -953,24 +980,15 @@ p {
         font-size: 1.5rem;
     }
 
-    .circle1,
-    .circle2,
-    .circle3,
-    .circle4 {
-        bottom: 25%;
-        left: -20%;
+}
+
+@media(max-width:350px){
+    .solution {
+        padding-bottom: 50px;
     }
 
-    .achievement .text p {
-        font-size: 0.78rem;
+    .swiper {
+        padding-top: 40px !important;
+        padding-bottom: 90px !important;
     }
-
-    .director .item .sub-title {
-        font-size: 1.7rem;
-    }
-    .director .item .sub-text {
-        font-size: 1.55rem;
-    }
-
-
 }
