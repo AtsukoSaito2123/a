@@ -482,6 +482,7 @@ p {
 }
 
 .swiper {
+    border: 1px solid red;
     padding-top: 60px !important;
     padding-bottom: 90px !important;
 }
@@ -937,18 +938,18 @@ p {
     .circle-height p {
         font-size: 2vw;
     }
-    
+
     .circle4 p {
         font-size: 1.8vw;
     }
-    
+
     .circle1 span,
     .circle2 span {
         font-size: 4vw;
         line-height: 0.8;
         padding-top: 10px;
     }
-    
+
 
     .circle4 span,
     .circle3 span {
@@ -956,10 +957,15 @@ p {
         padding-top: -5px;
         font-size: 3vw;
     }
-    
+
     .problem-presentation .item,
     .recommend .item {
         font-size: 4vw;
+    }
+
+    .swiper {
+        padding-top: 40px !important;
+        padding-bottom: 70px !important;
     }
 }
 
@@ -989,7 +995,7 @@ p {
         font-size: 4.5vw;
     }
 
-    .director h3{
+    .director h3 {
         font-size: 4vw;
         padding: 15px 5% 0;
     }
@@ -997,10 +1003,10 @@ p {
     .director .item .sub-title {
         font-size: 5vw;
     }
-    
+
     .director .item .sub-text {
         font-size: 4.5vw;
-        
+
     }
 
     .circle-width {
@@ -1009,6 +1015,7 @@ p {
         left: -10%;
     }
 
+
 }
 
 @media(max-width:350px) {
@@ -1016,8 +1023,4 @@ p {
         padding-bottom: 50px;
     }
 
-    .swiper {
-        padding-top: 40px !important;
-        padding-bottom: 90px !important;
-    }
 }
