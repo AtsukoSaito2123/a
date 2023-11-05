@@ -933,6 +933,10 @@ p {
         font-size: 2vw;
     }
 
+    .circle4 p{
+        font-size: 1.8vw;
+    }
+
     .circle1 span,
     .circle2 span {
         font-size: 4vw;
