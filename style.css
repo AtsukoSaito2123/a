@@ -37,7 +37,7 @@ html {
 }
 
 .sec-title {
-    font-size: 3rem;
+    font-size: 4rem;
 }
 
 .selected .sec-title,
@@ -905,7 +905,7 @@ p {
 @media(max-width:475px) {
 
     .sec-title{
-        font-size: 6vw;
+        font-size: 8vw;
     }
 
     .problem-presentation .item {
