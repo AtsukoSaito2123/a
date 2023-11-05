@@ -869,7 +869,7 @@ p {
     position: relative;
     padding: 10px 15px;
     font-weight: bold;
-    font-size: 1.3rem;
+    font-size: 1.5rem;
     cursor: pointer;
 }
 
@@ -902,7 +902,7 @@ p {
 }
 
 .accordion-003[open] p {
-    font-size: 1.3rem;
+    font-size: 1.5rem;
     transform: none;
     opacity: 1;
 }
