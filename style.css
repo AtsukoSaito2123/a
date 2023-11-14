@@ -65,6 +65,8 @@ html {
 
 a {
     text-decoration: none;
+    color: #333;
+    font-weight: bold;
 }
 
 
@@ -904,6 +906,20 @@ p {
     font-size: 1.5rem;
     transform: none;
     opacity: 1;
+}
+
+footer{
+    text-align: center;
+    padding: 0 5%;
+    margin: 20px 0;
+    font-size: 1.3rem;
+}
+
+footer a{
+    /* border: 1px solid red; */
+    margin-right: 10px;
+    padding-top: 5px;
+    line-height: 1;
 }
 
 
