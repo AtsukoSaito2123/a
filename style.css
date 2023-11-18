@@ -822,8 +822,14 @@ p {
     font-size: 3rem;
 }
 
-.price span {
+.price .p-tag2{
     font-size: 1.8rem;
+    font-weight: normal;
+}
+
+.price .p-tag1{
+    
+    font-size: 2.4rem;
 }
 
 .price::before {
