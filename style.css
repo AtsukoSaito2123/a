@@ -1194,6 +1194,7 @@ picture {
 }
 
 .foot_navi_sub li a {
+    font-weight: normal;
     display: block;
     color: #3E3A39;
     text-decoration: none;
