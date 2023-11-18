@@ -956,16 +956,6 @@ picture {
     overflow: hidden;
 }
 
-/* .llw input {
-    border-radius: 0;
-    -webkit-box-sizing: content-box;
-    -webkit-appearance: button;
-    appearance: button;
-    border: none;
-    box-sizing: border-box;
-    border: 1px solid transparent;
-    transition: border 0.2s ease-out;
-} */
 
 .llw input::-webkit-search-decoration {
     display: none;
@@ -1023,7 +1013,6 @@ picture {
 }
 
 .table_contents td {
-    /* border: 1px solid blue; */
     width: 67%;
     padding: 11px 26px;
     box-sizing: border-box;
@@ -1094,8 +1083,8 @@ picture {
 
 .privacy_wrap p {
     font-size: 21px;
-    line-height: 4rem;
-    margin-bottom: 2.6%;
+    line-height: 1rem;
+    margin: 4% 0;
     font-weight: 300;
 }
 
@@ -1263,7 +1252,7 @@ picture {
     }
 
     .privacy_wrap p {
-        font-size: 3.28125vw;
+        font-size: 3.2vw;
         line-height: 3rem;
     }
 
