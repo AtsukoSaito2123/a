@@ -1025,7 +1025,7 @@ picture {
     font-size: 22px;
     line-height: 1.7;
     vertical-align: inherit;
-    text-align: justify;
+    text-align: justify!important;
 }
 
 .tel,
@@ -1043,13 +1043,13 @@ picture {
 }
 
 
-.table_contents .ul_price {
+.p_plan{
     display: block;
-    font-size: 22px;
-    padding-left: 0;
-    line-height: 3rem;
-    margin: 4% 0;
+    font-weight: normal;
+    text-align: justify;
+    letter-spacing: 12px;
 }
+
 
 .table_contents .p_price {
     font-size: 15px;
@@ -1240,9 +1240,13 @@ picture {
         font-size: 3.4375vw;
     }
 
-    .table_contents .ul_price {
+    
+    .p_plan{
         font-size: 3vw;
         line-height: 2rem;
+        font-weight: normal;
+        border: 1px solid blue;
+        letter-spacing: 0;
     }
 
     .table_contents .p_price {
