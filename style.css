@@ -10,7 +10,7 @@ body {
     height: 100%;
 }
 
-.top {
+.top-body {
     font-family: 'Noto Sans Javanese', sans-serif;
     max-width: 500px;
     color: #333;
@@ -989,7 +989,7 @@ picture {
 }
 
 .table_wrap_sctl h1 {
-    color: #50A6D0;
+    color: #5092d0;
     font-size: 52px;
     text-align: center;
     margin: 0;
@@ -1241,7 +1241,7 @@ picture {
 
     .table_contents th {
         padding: 1.40625vw 1.71875vw 2.1875vw;
-        font-size: 3.28125vw;
+        font-size: 3.2vw;
     }
 
     .table_contents td {
