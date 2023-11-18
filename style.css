@@ -2,6 +2,7 @@
 
 html {
     font-size: 62.5%;
+    -webkit-overflow-scrolling: touch;
 }
 
 .top{
@@ -925,27 +926,14 @@ p {
     line-height: 1;
 }
 
-/* 下層ページ */
+/*___________ 下層ページ ____________*/
 
 
-.tel_red {
-    color: red;
-    font-size: 0.7rem;
-    line-height: 1.2 !important;
-}
 
 picture {
     display: block;
 }
 
-.sp {
-    display: none;
-}
-
-/*base*/
-html {
-    -webkit-overflow-scrolling: touch;
-}
 
 /*Base*/
 .llw {
@@ -956,7 +944,7 @@ html {
     overflow: hidden;
 }
 
-.llw input {
+/* .llw input {
     border-radius: 0;
     -webkit-box-sizing: content-box;
     -webkit-appearance: button;
@@ -965,7 +953,7 @@ html {
     box-sizing: border-box;
     border: 1px solid transparent;
     transition: border 0.2s ease-out;
-}
+} */
 
 .llw input::-webkit-search-decoration {
     display: none;
@@ -1000,16 +988,7 @@ html {
     font-family: "游ゴシック体", YuGothic, "游ゴシック", "Yu Gothic", sans-serif;
 }
 
-@media screen and (max-width: 640px) {
-    .table_wrap_sctl h1 {
-        font-size: 8.125vw;
-        /* line-hight: 3.5rem; */
-    }
 
-    .sp {
-        display: block;
-    }
-}
 
 .table_contents {
     border: solid 1px #f2f2f2;
@@ -1031,14 +1010,8 @@ html {
     color: #fff;
 }
 
-@media screen and (max-width: 640px) {
-    .table_contents th {
-        padding: 1.40625vw 1.71875vw 2.1875vw;
-        font-size: 3.28125vw;
-    }
-}
-
 .table_contents td {
+    /* border: 1px solid blue; */
     width: 67%;
     padding: 11px 26px;
     box-sizing: border-box;
@@ -1046,61 +1019,49 @@ html {
     color: #3E3A39;
     font-size: 22px;
     line-height: 1.7;
-    text-align: justify;
     vertical-align: inherit;
+    text-align: justify;
 }
 
-@media screen and (max-width: 640px) {
-    .table_contents td {
-        padding: 1.71875vw 4.0625vw;
-        font-size: 3.4375vw;
-    }
+.tel,
+.mail{
+    font-weight: normal;
+    white-space: nowrap;
 }
+
+.tel_red {
+    color: red;
+    font-weight: normal;
+    font-size: 1.1rem;
+    line-height: 1.2 !important;
+}
+
 
 .table_contents .ul_price {
     display: block;
-    border: 1px solid red;
     font-size: 22px;
-    list-style: none;
     padding-left: 0;
     line-height: 2.2rem;
     margin: 4% 0;
-    /* margin-inline-start: 0px;
-    margin-block-end: 1em;
-    margin-block-end: 1em;
-    padding-inline-start: 40px; */
-}
-
-@media screen and (max-width: 640px) {
-    .table_contents .ul_price {
-        font-size: 3.3vw;
-        line-height: 1.2rem;
-    }
 }
 
 .table_contents .p_price {
     font-size: 15px;
     line-height: 1.5rem;
     margin: 2% 0 4%;
+    font-weight: normal;
 }
 
-@media screen and (max-width: 640px) {
-    .table_contents .p_price {
-        font-size: 2.34375vw;
-        line-height: 1.1rem;
-    }
-}
 
 .table_contents .blank {
     padding-left: 1em;
+
 }
 
 .table_contents .left {
     text-align: left;
     padding-left: 4%;
 }
-
-
 
 .privacy_wrap {
     margin: 0 auto 0;
@@ -1110,11 +1071,6 @@ html {
     font-family: "Noto Sans JP", sans-serif;
 }
 
-@media screen and (max-width: 640px) {
-    .privacy_wrap {
-        font-size: 4vw;
-    }
-}
 
 .privacy_wrap .top {
     text-align: justify;
@@ -1122,12 +1078,6 @@ html {
     font-weight: 300;
 }
 
-@media screen and (max-width: 640px) {
-    .privacy_wrap .top {
-        font-size: 3vw;
-        line-height: 3rem;
-    }
-}
 
 .privacy_wrap p {
     font-size: 21px;
@@ -1136,12 +1086,6 @@ html {
     font-weight: 300;
 }
 
-@media screen and (max-width: 640px) {
-    .privacy_wrap p {
-        font-size: 3.28125vw;
-        line-height: 3rem;
-    }
-}
 
 .privacy_wrap h1 {
     color: #50A6D0;
@@ -1153,11 +1097,6 @@ html {
     font-weight: 600;
 }
 
-@media screen and (max-width: 640px) {
-    .privacy_wrap h1 {
-        font-size: 7vw;
-    }
-}
 
 .privacy_wrap h2 {
     font-size: 23px;
@@ -1169,6 +1108,52 @@ html {
 }
 
 @media screen and (max-width: 640px) {
+    .table_wrap_sctl h1 {
+        font-size: 8.125vw;
+    }
+
+    .sp {
+        display: block;
+    }
+
+    .table_contents th {
+        padding: 1.40625vw 1.71875vw 2.1875vw;
+        font-size: 3.28125vw;
+    }
+
+    .table_contents td {
+        padding: 1.71875vw 4.0625vw;
+        font-size: 3.4375vw;
+    }
+
+    .table_contents .ul_price {
+        font-size: 3vw;
+        line-height: 2rem;
+    }
+
+    .table_contents .p_price {
+        font-size: 2.34375vw;
+        line-height: 1.1rem;
+    }
+
+    .privacy_wrap p {
+        font-size: 3.28125vw;
+        line-height: 3rem;
+    }
+
+    .privacy_wrap {
+        font-size: 4vw;
+    }
+
+    .privacy_wrap .top {
+        font-size: 3vw;
+        line-height: 3rem;
+    }
+
+    .privacy_wrap h1 {
+        font-size: 7vw;
+    }
+
     .privacy_wrap h2 {
         font-size: 3.59375vw;
     }
