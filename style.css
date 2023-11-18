@@ -14,7 +14,7 @@ body {
     font-family: 'Noto Sans Javanese', sans-serif;
     max-width: 500px;
     color: #333;
-    margin: 0 auto;
+    margin: 0 auto 20px;
 }
 
 .method,
@@ -921,14 +921,16 @@ p {
 .index-foot {
     text-align: center;
     padding: 0 5%;
-    margin-bottom: 20px;
     font-size: 1.3rem;
 }
 
 .index-foot a {
+    display: inline-block;
+    border: 1px solid blue;
+    margin-bottom: 20px;
     margin-right: 10px;
     padding-top: 5px;
-    line-height: 1;
+    line-height: 2;
 }
 
 /*___________ 下層ページ ____________*/
@@ -1206,6 +1208,7 @@ picture {
 }
 
 .foot_bottom_llw {
+    margin-bottom: 20px;
     font-size: 19px;
     color: #6B6B6B;
     text-align: center;
