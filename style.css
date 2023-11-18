@@ -951,7 +951,7 @@ picture {
 .llw {
     max-width: 650px;
     width: 100%;
-    background: #F4FAFC;
+    background: #fcf4f4;
     margin: 0 auto;
     overflow: hidden;
 }
@@ -979,7 +979,7 @@ picture {
 }
 
 .table_wrap_sctl h1 {
-    color: #5092d0;
+    color: #e56938;
     font-size: 52px;
     text-align: center;
     margin: 0;
@@ -1004,8 +1004,8 @@ picture {
     width: 30%;
     padding: 17px 11px 20px;
     box-sizing: border-box;
-    border: solid 1px #A7D2E7;
-    background-color: #50A6D0;
+    border: solid 1px #facab6;
+    background-color: #ef9e7e;
     text-align: center;
     font-size: 21px;
     line-height: 1.23;
@@ -1016,7 +1016,7 @@ picture {
     width: 67%;
     padding: 11px 26px;
     box-sizing: border-box;
-    border: solid 1px #A7D2E7;
+    border: solid 1px #facab6;
     color: #3E3A39;
     font-size: 22px;
     line-height: 1.7;
@@ -1091,7 +1091,7 @@ picture {
 
 
 .privacy_wrap h1 {
-    color: #50A6D0;
+    color: #e56938;
     font-size: 49px;
     text-align: center;
     margin: 0;
@@ -1106,7 +1106,7 @@ picture {
     text-align: left;
     margin: 0 0 -1.6% 0;
     padding: 2% 0 2.2%;
-    border-bottom: solid 1px #50A6D0;
+    border-bottom: solid 1px #facab6;
     font-weight: 400;
 }
 
@@ -1181,7 +1181,7 @@ picture {
     float: none;
     padding: 1.1% 0 0.8% 0;
     margin: 0 6.8%;
-    border-bottom: 1px solid #A7D2E7;
+    border-bottom: 1px solid #facab6;
 }
 
 .foot_navi_sub li:last-child {
