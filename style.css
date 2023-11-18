@@ -5,7 +5,12 @@ html {
     -webkit-overflow-scrolling: touch;
 }
 
-.top{
+html,
+body {
+    height: 100%;
+}
+
+.top {
     font-family: 'Noto Sans Javanese', sans-serif;
     max-width: 500px;
     color: #333;
@@ -1024,7 +1029,7 @@ picture {
 }
 
 .tel,
-.mail{
+.mail {
     font-weight: normal;
     white-space: nowrap;
 }
