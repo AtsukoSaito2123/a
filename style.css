@@ -1026,6 +1026,7 @@ picture {
 
 .tel,
 .mail {
+    color: #333;
     font-weight: normal;
     white-space: nowrap;
 }
